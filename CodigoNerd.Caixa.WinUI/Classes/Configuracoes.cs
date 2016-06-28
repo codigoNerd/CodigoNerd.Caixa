@@ -4,9 +4,7 @@ namespace CodigoNerd.Caixa.WinUI.Classes
 {
     public static class Configuracoes
     {
-        public const string STRING_DE_CONEXAO = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CodigoNerd.Caixa.Database;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
-
+        public const string STRING_DE_CONEXAO = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Itanio-PC24\Source\Repos\CodigoNerd.Caixa\CodigoNerd.Caixa.WinUI\Banco\CodigoNerd.Caixa.Banco.mdf;Integrated Security=True";
 
         public static List<Imposto> Impostos { get; private set; } = new List<Imposto>() {
                 new Imposto { Descricao = "ICMS", Percentual = 0.20M },
