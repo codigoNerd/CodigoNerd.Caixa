@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CodigoNerd.Caixa.WinUI.Formularios;
+using System;
 using System.Windows.Forms;
 
 namespace CodigoNerd.Caixa.WinUI
@@ -16,7 +14,7 @@ namespace CodigoNerd.Caixa.WinUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
         }
     }
 }
